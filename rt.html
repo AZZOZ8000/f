@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpart" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="author" content="">
+    <title>خريطتك لكليات شقراء</title>
+    <link rel="icon" type="image/x-icon" href="new.jpeg">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+    <div id="mainbox" onclick="openfunction()">&#9776;<img src="new.jpeg" align="top_left" alt="docoment"></div>
+
+    <div id="menu" class="mid">
+        <nav>
+            <a href="j.html" id="active">  الرئيسية</a><br>
+            <a href="coolege.html" > الكليات </a><br>
+            <a href="#"> التقويم الدراسي</a><br>
+            <a href="" class="closebtn" onclick="closefunction()">&times;</a><br><br>
+        </nav>
+
+    </div>
+    <script src="script.js"></script>
+    <div class="maddel">
+        <nav>
+            <ul>
+                <li><a href="#">  جامعة شقراء</li>
+                <li><a href="#">تعرف علينا</li>
+                <li><a href="#"> تواصل</li>
+                <li><a href="#">عن الجامعه</li>
+
+            </ul>
+                
+        </nav> 
+    </div>
+    <nav>
+        <div class="pho">
+            <button onclick="myFunction1()" class="ppho"> البهو</button>
+            <div id="mypho" class="pho-con">
+                <a href="/hall.html"> البهو</a>
+                        <a href="/class2203.html">قسم العماده</a>
+                        <a href="/bath2.html"> ممر 2</a>
+                        <a href="/bath3.html">ممر 3 </a>
+                        
+        </div>
+    </nav> 
+    <script>
+        /* When the user clicks on the button,
+                                                                                                toggle between hiding and showing the dropdown content */
+        function myFunction1() {
+            document.getElementById("mypho").classList.toggle("show");
+        }
+    </script>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">الفصول والمعامل ممر 3:</button>
+        <div id="myDropdown" class="dropdown-content">
+            <input type="text" placeholder="ابحث.." id="myInput" onkeyup="filterFunction()">
+            <a href="/labs_classes/lr.html">غرفة مصادر التعليم </a>
+            <a href="/labs_classes/lab2309.html"> معمل 2309</a>
+            <a href="/labs_classes/class2301.html">  فصل 2301</a>
+            <a href="/labs_classes/class2302.html"> فصل 2302</a>
+            <a href="/labs_classes/class2303.html">فصل 2303</a>
+            <a href="/labs_classes/class2304.html"> فصل 2304</a>
+            <a href="/labs_classes/class2305.html"> فصل 2305</a>
+            <a href="/labs_classes/class2306.html"> فصل 2306</a>
+            <a href="/labs_classes/class2307.html"> فصل 2307</a>
+            <a href="/labs_classes/class2308.html"> فصل 2308</a>
+            <a href="/labs_classes/class2310.html"> فصل 2310</a>
+            <a href="/labs_classes/class2311.html"> فصل 2311</a>
+            <a href="/labs_classes/class2312.html"> فصل 2312</a>
+                   
+    </div>
+    </div>
+    <div class="dropdownp">
+        <button onclick="myFunctionp()" class="dropbtnp">الفصول والمعامل ممر 2:</button>
+        <div id="myDropdownp" class="dropdown-contentp">
+            <input type="text" placeholder="ابحث.." id="myInputp" onkeyup="filterFunctionp()">
+            <a href="/labs_classes/lr.html">غرفة مصادر التعليم </a>
+            <a href="/labs_classes/lab2212.html"> معمل2212</a>
+            <a href="/labs_classes/lab2202.html"> معمل 2202</a>
+            <a href="/labs_classes/lab2211.html">معمل 11</a>
+            <a href="/labs_classes/class2203.html"> فصل2203</a>
+            <a href="/labs_classes/class2204.html">فصل2204</a>
+            <a href="/labs_classes/class2205.html"> فصل 2205</a>
+            <a href="/labs_classes/class2206.html"> فصل 2206</a>
+            <a href="/labs_classes/class2207.html"> فصل 2207</a>
+            <a href="/labs_classes/class2208.html"> فصل 2208</a>
+            <a href="/labs_classes/2-4.html"> دورة مياه F.F(2-4) </a>
+            <a href="/labs_classes/lab2209.html">معمل 9</a>
+            <a href="/labs_classes/lab2210.html"> معمل 10 </a>
+        </div>
+    </div>
+
+
+    <div class="dropdownn">
+        <button onclick="myyFunction()" class="dropbtnn">قسم العماده والدكاتره</button>
+        <div id="myDropdownn" class="dropdown-contentt">
+            <input type="text" placeholder="ابحث.." id="myInputt" onkeyup="filterrFunction()">
+            <a href="/Doctors/saeed.html"> د.سعيدالشهراني</a>
+            <a href="#"> رئيس علوم الحاسب</a>
+            <a href="#">رئيس كلية الحاسب</a>
+            <a href="/Doctors/">وكيل شؤون الطلاب</a>
+            <a href="/Doctors/aziz_hamed.html">دكتور عبدالعزيز عبد الحميد</a>
+            <a href="/Doctors/fahad_rowaily.html">دكتور فهد الرويلي</a>
+            <a href="/Doctors/fahad_alshamary.html">دكتور فهد الشمري</a>
+            <a href="/Doctors/omaya.html">دكتور امية العمري</a>
+            <a href="/Doctors/nayyar.html">دكتور نيار خان</a>
+            <a href="/Doctors/mohammed_alfakki.html">دكتور محمد الفكي</a>
+            <a href="/Doctors/hussain_shahrani.html">دكتور حسين الشهراني</a>
+            <a href="/Doctors/mohammed_karar.html">دكتور محمد كرار</a>
+            <a href="/Doctors/munif_alotaiby.html">دكتور منيف العتيبي</a>
+            <a href="/Doctors/abdullah_alsolomi.html">دكتور عبدالله السلومي</a>
+            <a href="/Doctors/alyamany.html">دكتور مفضل اليماني</a>
+            <a href="/Doctors/hazim_shahata.html">دكتور حازم شحاته</a>
+            <a href="/Doctors/raed_alotaiby.html">دكتور رائد العتيبي</a>
+            <a href="/Doctors/faizal.html">دكتور فيضل خان</a>
+            <a href="/Doctors/hasannen.html">دكتور أحمد حسنين </a>
+            <a href="/Doctors/darwesh.html">دكتور أمجد درويش </a>
+            <a href="/Doctors/alghamdi.html">دكتور عبدالرحمن الغامدي </a>
+            <a href="/Doctors/aziz_hamed.html">  مساعد العميد </a>
+            <a href="/Doctors/wkeelKlih.html">وكيل الكلية </a>
+            <a href="/Doctors/wkilt6weer.html">  وكيل التطوير </a>
+
+        </div>
+    </div>
+    <script>
+        window.addEventListener('mouseup', function(event)) {
+            var box = document.getElementById('myDropdownn');
+            if (event.target != box) {
+                box.style.width = '0px';
+            }
+        }
+    </script>
+
+    <script>
+        /* When the user clicks on the button,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                toggle between hiding and showing the dropdown content */
+        function myyFunction() {
+            document.getElementById("myDropdownn").classList.toggle("show");
+        }
+
+        function filterrFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInputt");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdownn");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+    </Script>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function filterFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+    <script>
+        function myFunctionp() {
+            document.getElementById("myDropdownp").classList.toggle("show");
+        }
+
+        function filterFunctionp() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInputp");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdownp");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+
+</html>
